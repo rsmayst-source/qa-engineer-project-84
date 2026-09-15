@@ -66,7 +66,7 @@
   steps:
     - Выбрать вид тестирования "Web Testing" - "Live"
     - В поисковую строку ввести адрес сайта "https://products-store.hexlet.app/" и нажать кнопку "Start test"
-    - Последовательно открыть сайт "https://products-store.hexlet.app/" через "https://www.browserstack.com/" в браузерах Edge 152, IE 11, Firefox 155, Chrome 152, Opera 135, Yandex 14.12, Safari 5.1 на устройстве с Windows 10 и Firefox 155, Chrome 152, Opera 135, Edge 152, Safari 26.4 на устройстве Mac с Tahoe 
+    - Последовательно открыть сайт "https://products-store.hexlet.app/" через "https://www.browserstack.com/" в браузерах Edge 152, IE 11, Firefox 155, Chrome 152, Opera 135, Яндекс.Браузер 14.12, Safari 5.1 на устройстве с Windows 10 и Firefox 155, Chrome 152, Opera 135, Edge 152, Safari 26.4 на устройстве Mac с Tahoe 
   expected-result: |
     Во всех протестированных браузерах сайт отобразился корректно  
 
