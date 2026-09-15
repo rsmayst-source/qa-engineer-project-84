@@ -222,3 +222,16 @@
   actual-result: |
     Кнопка "Pay" отсутствует
     СКРИНШОТ 
+
+- summary: |
+    Не осуществляется переход к истории заказов
+  environment: |
+    Яндекс.Браузер 26.8.2.1064 (64-bit)
+    ОС Windows 11 Pro
+  steps-to-reproduce: |
+    1. Зайти на сайт по ссылке https://products-store.hexlet.app/
+  expected-result: |
+    В правом верхнем углу должна быть иконка "My orders", по клику на которую осуществляется переход к истории заказов  
+  actual-result: |
+    Иконка "My orders" отсутствует
+    СКРИНШОТ 
