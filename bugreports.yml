@@ -25,3 +25,21 @@
     Фильтр по цене на устройствах с разрешениями экрана 360 × 800 px, 375 × 812 px, 390 × 844 px, 414 × 896 px, 768 × 1024 px отображается некорректно - не видны введенные в него значения
     СКРИНШОТ
 
+- summary: |
+    Сайт не открывается в браузерах IE 11 и Safari 5.1 на устройстве с Windows 10 
+  environment: |
+    Яндекс.Браузер 26.8.2.1064 (64-bit)
+    ОС Windows 11 Pro
+    Браузеры IE 11 и Safari 5.1, запущенные через https://www.browserstack.com/
+  steps-to-reproduce: |
+    1. Зайти на сайт по ссылке https://www.browserstack.com/
+    2. Выбрать вид тестирования "Web Testing" - "Live"
+    3. В поисковую строку ввести адрес сайта "https://products-store.hexlet.app/" и нажать кнопку "Start test"
+    4. Выбрать браузер IE 11, устройство с Windows 10 выбрано по умолчанию
+    5. Нажать на кнопку "Switch Browser"
+    6. Выбрать браузер Safari 5.1
+  expected-result: |
+    В браузерах IE 11 и Safari 5.1, запущенных через https://www.browserstack.com/, сайт отобразился корректно
+  actual-result: |
+    Сайт не открывается
+    СКРИНШОТ
