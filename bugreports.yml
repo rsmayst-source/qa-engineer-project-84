@@ -10,7 +10,7 @@
     Должна открыться мобильная версия сайта, дизайн и содержание оптимизированы под просмотр с мобильных устройств
   actual-result: |
      Фильтр по цене в мобильной версии браузера отображается некорректно - не видны введенные в него значения
-     СКРИНШОТ
+     Ошибка изображена на скриншоте https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Мобильная%20версия%20-%20блок%20с%20ценой.jpeg
 
 - summary: |
     Некорректно отображается фильтр по цене на устройствах с разрешениями экрана 360 × 800 px, 375 × 812 px, 390 × 844 px, 414 × 896 px, 768 × 1024 px
@@ -23,7 +23,12 @@
     На всех проверенных моделях мобильных устройств и типовых разрешениях экранов сайт отображается корректно
   actual-result: |
     Фильтр по цене на устройствах с разрешениями экрана 360 × 800 px, 375 × 812 px, 390 × 844 px, 414 × 896 px, 768 × 1024 px отображается некорректно - не видны введенные в него значения
-    СКРИНШОТ
+    Ошибка изображена на скриншотах:
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Фильтр%20по%20цене%20360%20800.jpeg
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Фильтр%20по%20цене%20375%20812.jpeg
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Фильтр%20по%20цене%20390%20844.jpeg
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Фильтр%20по%20цене%20414%20896.jpeg
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Фильтр%20по%20цене%20768%201024.jpeg
 
 - summary: |
     Сайт не открывается в браузерах IE 11 и Safari 5.1 на устройстве с Windows 10 
@@ -42,7 +47,9 @@
     В браузерах IE 11 и Safari 5.1, запущенных через https://www.browserstack.com/, сайт отобразился корректно
   actual-result: |
     Сайт не открывается
-    СКРИНШОТ
+    Ошибка изображена на скриншотах:
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/IE%2011.jpeg
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Safari%205.1.jpeg
     
 - summary: |
     Экран, отображаемый пользователю при низкой скорости интернет-соединения, не информативен 
