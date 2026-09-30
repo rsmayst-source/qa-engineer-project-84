@@ -142,7 +142,7 @@ bugreports:
     actual-result: |
       В результатах поиска отображаются все товары
       Ошибка изображена на скриншоте:
-      ////ВСТАВИТЬ СКРИНШОТ////
+      https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/Фильтр%20по%20цене.png
       
   - summary: |
       Некорректно работает поиск несуществующего товара
@@ -157,7 +157,7 @@ bugreports:
     actual-result: |
       В результатах поиска отображаются все товары
       Ошибка изображена на скриншоте:
-      ////ВСТАВИТЬ СКРИНШОТ////
+      https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/Несуществующий%20товар.png
 
   - summary: |
       Некорректно работает поиск товара, отсутствующего в наличии
@@ -174,4 +174,4 @@ bugreports:
     actual-result: |
       В результатах поиска отображаются только товары с первой страницы каталога
       Ошибка изображена на скриншоте:
-      ////ВСТАВИТЬ СКРИНШОТ////
+      https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/Фильтр%20по%20товарам%20в%20наличии.png
