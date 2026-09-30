@@ -249,6 +249,24 @@
     Строка с товаром "Essence Mascara Lash Princess" должна исчезнуть из корзины, строка с товаром "Powder Canister" должна остаться
 
 - summary: | 
+    Проверка возможности очистки корзины 
+  requirement: |
+    Пользователь должен иметь возможность добавлять товары в корзину и просматривать содержимое корзины
+  prerequisites:
+    Открыта страница со списком товаров интернет-магазина
+  test-data: |
+    Список товаров, товар "Powder Canister", товар "Essence Mascara Lash Princess"
+  steps:
+    - В списке товаров найти "Powder Canister"
+    - Нажимаем кнопку "Add to cart"
+    - В списке товаров найти "Essence Mascara Lash Princess"
+    - Нажимаем кнопку "Add to cart"    
+    - Нажимаем на "Cart"
+    - Нажимаем "Clear cart"
+  expected-result: |
+    Строки с товарами "Essence Mascara Lash Princess" и "Powder Canister" должны исчезнуть. 
+    
+- summary: | 
     Проверка возможность добавления в один заказ нескольких экземпляров одного товара
   requirement: |
     Должна быть обеспечена возможность добавления в один заказ нескольких экземпляров одного товара
