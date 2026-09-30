@@ -20,6 +20,10 @@
     ОС Windows 11 Pro
   steps-to-reproduce: |
     1. Зайти на сайт по ссылке https://products-store.hexlet.app/
+    2. В поисковой строке ввести "Powder Canister"
+    3. Щелкнуть по "Add to cart"
+    4. Щелкнуть по "Cart" 
+    5. Щелкнуть по "Checkout"
   expected-result: |
     На всех проверенных моделях мобильных устройств и типовых разрешениях экранов сайт отображается корректно
   actual-result: |
