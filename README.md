@@ -2,36 +2,18 @@
 
 [![hexlet-check](https://github.com/rsmayst-source/qa-engineer-project-84/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/rsmayst-source/qa-engineer-project-84/actions)
 
-Протестируйте интернет-магазин, и найдите все ошибки
-
 Учебный проект Хекслета: https://ru.hexlet.io/programs/qa-engineer
 Как это должно работать: https://products-store-ru.hexlet.app
 
-## Стек
+Содержание файлов:
 
-- Разное
-
-## Установка
-
-<!-- Опишите установку: клонирование, зависимости, переменные окружения -->
-
-```bash
-git clone https://github.com/rsmayst-source/qa-engineer-project-84.git
-cd qa-engineer-project-84
-```
-
-## Использование
-
-<!-- Добавьте примеры запуска и запись asciinema — именно это смотрит работодатель -->
-
----
-
-<details>
-<summary>Автоматические тесты Хекслета</summary>
-
-Тесты запускаются на каждый коммит. За запуск отвечает файл `.github/workflows/hexlet-check.yml` — не удаляйте и не переименовывайте ни его, ни репозиторий.
-
-</details>
+about.yml - описание профессиональных навыков тестировщика
+requirements.yml - описание функциональных, нефункциональных и неявных требований проекта
+test-cases.yml - подробные тест-кейсы для проведения тестирования
+testing-report.yml - результат прохождения тест-кейсов с отметкой об их успешности или провальности
+bugreports.yml - подробное описание дефектов и шагов по их воспроизведению
+regress-report.yml - отчет о проведенном регрессионном тестировании и новые баг-репорты
+screenshots - скриншоты, приложенные к баг-репортам
 
 ## О Хекслете
 
