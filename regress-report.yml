@@ -128,4 +128,18 @@ test-cases:
       Проверка наличия локализации сайта на русском и английском языке 
     status: fail
     
-bugreports: []
+bugreports:
+  - summary: |
+      Некорректно работает фильтр по цене при больших значениях
+    environment: |
+      Яндекс.Браузер 26.8.2.1064 (64-bit)
+      ОС Windows 11 Pro
+    steps-to-reproduce: |
+      1. Зайти на сайт по ссылке https://products-store.hexlet.app/
+      2. В списке товаров найти "Essence Mascara Lash Princess"
+    expected-result: |
+      В рамке с карточкой товара "Essence Mascara Lash Princess" в каталоге отображаются название товара, рейтинг товара, цена товара со скидкой, цена товара без скидки, количество товаров в магазине 
+    actual-result: |
+      В рамке с карточкой товара "Essence Mascara Lash Princess" в каталоге не отображается рейтинг
+      Ошибка изображена на скриншоте:
+      ////ВСТАВИТЬ СКРИНШОТ////
