@@ -73,7 +73,7 @@
   actual-result: |
     Пользователю отображается экран, не содержащий полезной информации о необходимости дождаться загрузки сайта
     Ошибка изображена на скриншоте:
-    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Экран%20на%20медленной%20загрузке.jpeg
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/Экран%20на%20медленной%20загрузке.jpeg
     
 - summary: |
     Отсутствует возможность поиска товаров по названию категории
