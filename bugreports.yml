@@ -88,7 +88,7 @@
   actual-result: |
     Список товаров, соответствующих критериям, пуст 
     Ошибка изображена на скриншоте:
-    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Фильтр%20по%20категории.jpeg
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/Фильтр%20по%20категории.jpeg
 
 - summary: |
     Некорректно работает фильтр по наличию товара
@@ -126,7 +126,7 @@
   actual-result: |
     Кнопки «Next» и «Previous» не окрашиваются серым цветом («Next» - при долистывании пользователем до последней страницы списка товаров, «Previous» - при нахождении пользователя на первой странице списка товаров)
     Ошибка изображена на скриншоте:
-    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Кнопка%20не%20подсвечивается.jpeg
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/Кнопка%20не%20подсвечивается.jpeg
 
 - summary: |
     Фильтр по бренду на второй странице списка товаров отсутствует
@@ -146,7 +146,7 @@
   actual-result: |
     При переходе пользователя на вторую страницу списка товаров возможность фильтрации пропадает, с третьей страницы снова возвращается
     Ошибка изображена на скриншоте:
-    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Фильтр%20по%20брендам%20на%20второй%20странице.jpeg
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/Фильтр%20по%20брендам%20на%20второй%20странице.jpeg
 
 - summary: |
     В карточке товара в каталоге не отображается рейтинг
@@ -194,7 +194,7 @@
   actual-result: |
     При клике по фотографии в уменьшенном размере фотография в увеличенном размере не отображается
     Ошибка изображена на скриншоте:
-    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Фото%20не%20протыкиваются.jpeg
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/Фото%20не%20протыкиваются.jpeg
 
 - summary: |
     Отсутствует возможность добавления из корзины в один заказ нескольких экземпляров одного товара
@@ -212,7 +212,7 @@
   actual-result: |
     Модальное окно не открывается, осуществляется переход к карточке подробного описания товаров 
     Ошибка изображена на скриншоте:
-    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Корзина%20с%20одним%20товаром.jpeg
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/Корзина%20с%20одним%20товаром.jpeg
 
 - summary: |
     Информация о количестве единиц товаров, доступных для заказа, не обновляется на сайте в списке товаров
@@ -231,10 +231,10 @@
   actual-result: |
     Пересчет количества единиц товаров, доступных для заказа, не осуществляется 
     Путь к ошибке изображен на скриншотах:
-    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Шаг%201%20-%20товары.jpeg
-    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Шаг%202%20-%20корзина%20с%201%20товаром.jpeg
-    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Шаг%203%20-%20заказали.jpeg
-    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Шаг%204%20-%20вернулись%20в%20магазин.jpeg
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/Шаг%201%20-%20товары.jpeg
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/Шаг%202%20-%20корзина%20с%201%20товаром.jpeg
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/Шаг%203%20-%20заказали.jpeg
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/Шаг%204%20-%20вернулись%20в%20магазин.jpeg
 
 - summary: |
     В DevTools отображается ошибка 500 при попытке оформления заказа
@@ -251,7 +251,7 @@
   actual-result: |
     В DevTools отображается ошибка 500 при попытке оформления заказа 
     Ошибка изображена на скриншоте:
-    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Информация%20не%20передана%20на%20сервер.jpeg
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/Информация%20не%20передана%20на%20сервер.jpeg
 
 - summary: |
     Не работает кнопка закрытия окна формирования заказа товаров
@@ -286,7 +286,7 @@
   actual-result: |
     Кнопка "Pay" отсутствует
     Ошибка изображена на скриншоте:
-    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Нет%20формы%20оплаты.jpeg 
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/Нет%20формы%20оплаты.jpeg 
 
 - summary: |
     Не отображается иконка английского языка в подменю выбора языка
@@ -301,7 +301,7 @@
   actual-result: |
     Иконка с флагом Великобритании слева от строки English отсутствует
     Ошибка изображена на скриншоте:
-    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Кнопка%20-%20английский.jpeg
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/Кнопка%20-%20английский.jpeg
 
 - summary: |
     Язык описания товаров не меняется в зависимости от выбранного языка 
@@ -322,4 +322,4 @@
   actual-result: |
     Описание товаров отображается всегда на английском языке
     Ошибка изображена на скриншоте:
-    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Магазин%20на%20русском.jpeg
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/Магазин%20на%20русском.jpeg
