@@ -63,11 +63,12 @@
   prerequisites:
     Открыт сайт https://www.browserstack.com/
   test-data: |
-    Сайт = https://products-store.hexlet.app/ 
+    Сайт = https://products-store.hexlet.app/, вид тестирования = "Web Testing" - "Live", исследуемые браузеры = Edge 152, IE 11, Firefox 155, Chrome 152, Opera 135, Safari 5.1 на устройстве с Windows 10 и Firefox 155, Chrome 152, Opera 135, Edge 152, Safari 26.4 на устройстве Mac с Tahoe 
   steps:
-    - Выбрать вид тестирования "Web Testing" - "Live"
-    - В поисковую строку ввести адрес сайта "https://products-store.hexlet.app/" и нажать кнопку "Start test"
-    - Последовательно открыть сайт "https://products-store.hexlet.app/" через "https://www.browserstack.com/" в браузерах Edge 152, IE 11, Firefox 155, Chrome 152, Opera 135, Safari 5.1 на устройстве с Windows 10 и Firefox 155, Chrome 152, Opera 135, Edge 152, Safari 26.4 на устройстве Mac с Tahoe 
+    - В поисковой строке ввести "Powder Canister"
+    - Щелкнуть по "Add to cart"
+    - Щелкнуть по "Cart" 
+    - Щелкнуть по "Checkout"  
   expected-result: |
     Во всех протестированных браузерах сайт отобразился корректно  
 
