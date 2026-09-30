@@ -49,7 +49,7 @@
   test-data: |
     Список товаров, в "Toggle device toolbar" включен режим эмуляции экранов с разрешением экрана 360 × 800 px, 375 × 812 px, 390 × 844 px, 414 × 896 px, 768 × 1024 px, 800 × 1280 px, 1920 × 1080 px, 1366 × 768 px, 1440 × 900 px, 2560 × 1440 px 
   steps:
-    - В списке товаров найти "Essence Mascara Lash Princess"
+    - В поисковой строке ввести "Powder Canister"
     - Щелкнуть по "Add to cart"
     - Щелкнуть по "Cart" 
     - Щелкнуть по "Checkout"
