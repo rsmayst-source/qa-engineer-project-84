@@ -144,7 +144,7 @@
   actual-result: |
     В рамке с карточкой товара "Essence Mascara Lash Princess" в каталоге не отображается рейтинг
     Ошибка изображена на скриншоте:
-    ////ВСТАВИТЬ СКРИНШОТ////
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/Нет%20рейтинга%20в%20каталоге.png
 
 - summary: |
     Не работает переход в каталог по хештегу
@@ -160,8 +160,9 @@
     Осуществлен переход в каталог, в каталоге отображаются все товары с хештегом "#beauty" 
   actual-result: |
     Ничего не происходит
-    Ошибка изображена на скриншоте:
-    ////ВСТАВИТЬ СКРИНШОТ////
+    Путь к ошибке изображен на скриншотах:
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/1%20-%20каталог.png
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/2%20-%20карточка%20товара.png
 
 - summary: |
     В карточке подробного описания товаров при клике на фотографию в уменьшенном размере фотография не отображается в увеличенном размере
@@ -251,8 +252,10 @@
     Окно формирования заказа товаров закрылось 
   actual-result: |
     Ничего не происходит
-    Ошибка изображена на скриншоте:
-    ////ВСТАВИТЬ СКРИНШОТ////
+    Путь к ошибке изображен на скриншотах:
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/1%20-%20каталог.png
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/2%20-%20корзина.png
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/3%20-%20кнопка%20закрытия%20окна.png
 
 - summary: |
     Не осуществляется переход к форме оплаты заказа
