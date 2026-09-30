@@ -53,8 +53,8 @@
   actual-result: |
     Сайт не открывается
     Ошибка изображена на скриншотах:
-    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/IE%2011.jpeg
-    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Safari%205.1.jpeg
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/IE%2011.jpeg
+    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/screenshots/Safari%205.1.jpeg
     
 - summary: |
     Экран, отображаемый пользователю при низкой скорости интернет-соединения, не информативен 
