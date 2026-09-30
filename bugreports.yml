@@ -218,20 +218,6 @@
     https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Нет%20формы%20оплаты.jpeg 
 
 - summary: |
-    Не осуществляется переход к истории заказов
-  environment: |
-    Яндекс.Браузер 26.8.2.1064 (64-bit)
-    ОС Windows 11 Pro
-  steps-to-reproduce: |
-    1. Зайти на сайт по ссылке https://products-store.hexlet.app/
-  expected-result: |
-    В правом верхнем углу должна быть иконка "My orders", по клику на которую осуществляется переход к истории заказов  
-  actual-result: |
-    Иконка "My orders" отсутствует
-    Ошибка изображена на скриншоте:
-    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Нет%20блока%20Мои%20заказы.jpeg
-
-- summary: |
     Не отображается иконка английского языка в подменю выбора языка
   environment: |
     Яндекс.Браузер 26.8.2.1064 (64-bit)
@@ -261,20 +247,3 @@
     Описание товаров отображается всегда на английском языке
     Ошибка изображена на скриншоте:
     https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Магазин%20на%20русском.jpeg
-
-- summary: |
-    Цена не пересчитывается в зависимости от настроек языка 
-  environment: |
-    Яндекс.Браузер 26.8.2.1064 (64-bit)
-    ОС Windows 11 Pro
-  steps-to-reproduce: |
-    1. Зайти на сайт по ссылке https://products-store.hexlet.app/
-    2. Щелкнуть по кнопке "Language", выбрать значение "Russian"
-    3. Щелкнуть по кнопке "Язык", выбрать значение "Английский"
-  expected-result: |
-    Цена и валюта товаров отображаются в соответствии с выбранным языком (при выборе значения "Russian"  - в рублях, при выборе значения "Английский" - в фунтах)  
-  actual-result: |
-    Валюта товаров отображаются всегда в долларах, цена не пересчитывается при переключении языка  
-    Ошибка изображена на скриншотах:
-    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Валюта%20-%20доллар%20-%20английский.jpeg
-    https://github.com/rsmayst-source/qa-engineer-project-84/blob/main/Валюта%20-%20доллар%20-%20русский.jpeg
